@@ -47,7 +47,7 @@ def get_top_n_words(word_list, n):
 
 if __name__ == "__main__":
     mines = get_word_list('Solomon.txt')
-    mines = get_top_n_words(mines, 20)
+    mines = get_top_n_words(mines, 100)
     for item in mines:
         print(str(item[0]) + ": " + item[1])
     #print("Running WordFrequency Toolbox")
